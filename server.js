@@ -22,12 +22,12 @@ var articleOne ={
         </p>`
 };
 
-function creatTemplate (data){
-    
+function createTemplate (data){
     var title = data.title;
     var heading = data.heading;
     var date = data.date;
     var content = data.content;
+    
     var htmlTemplate = 
     `<html>
         <head>
@@ -55,6 +55,7 @@ function creatTemplate (data){
             </div>
         </body>
     </html>`;
+    
     return htmlTemplate;
 }
 
